@@ -43,7 +43,7 @@ The system is designed to be straightforward:
 
 ## Code
 Here's how you might use the system:
-"" sql-- Add a category
+""" sql-- Add a category
 INSERT INTO categories (category_name, description) 
 VALUES ('Electronics', 'Electronic devices');
 
@@ -59,5 +59,5 @@ VALUES ('Main Store', '123 Main St');
 CALL add_inventory(1, 1, 20, 'Initial stock');
 
 -- Make a sale using the stored procedure
-CALL remove_inventory(1, 1, 5, 'Customer order #12345');""
+CALL remove_inventory(1, 1, 5, 'Customer order #12345');"""
 
